@@ -1,0 +1,204 @@
+<!--
+=========================================================
+* Argon Dashboard - v1.2.0
+=========================================================
+* Product Page: https://www.creative-tim.com/product/argon-dashboard
+
+
+* Copyright  Creative Tim (http://www.creative-tim.com)
+* Coded by www.creative-tim.com
+
+
+
+=========================================================
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+  <title>Hotel Book</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/img/brand/favicon.png" type="image/png">
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+  <!-- Page plugins -->
+  <!-- Argon CSS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/argon.css?v=1.2.0" type="text/css">
+  <link rel="stylesheet" href="assets/css/custom.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/fontawesome-free/css/all.min.css" type="text/css">
+</head>
+<style>
+    #ticket{
+        width:155px;
+        /* border:1px solid black; */
+        padding:5px;
+        font-size:9px;    
+        color: black;
+        
+    }
+    #ticket .header-title{
+        border-bottom: 1px dashed black;
+        padding-bottom: 10px;
+        padding-top: 16px;
+    }
+
+    #ticket .header-title p{            
+        font-size:9px;    
+        margin-bottom:0px;
+    }
+
+    #bio-user{
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-bottom: 1px dashed black;
+    }
+
+    #no-kamar{
+        height: 82px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-bottom: 1px dashed black;
+    }
+
+    #no-kamar .room-numb{
+        font-size: 44px;
+        margin-top: -12px;
+    }
+
+    .detail-pemesanan{
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-bottom: 1px dashed black;
+    }
+
+    .detail-pemesanan p{
+        margin: 0px;
+        font-size: 9px;
+        font-weight: 700;
+    }
+    .detail-pemesanan table{
+        font-size:9px;
+    }
+
+    .unborder{
+        border-bottom:0px;
+    }
+</style>
+<body>
+    <div id="ticket">
+        <div class="text-center header-title">
+             <p>Newbury Hotel</p>
+             <p>Jl. Prigen No 24 Pasuruan</p>
+             <p>Telp. 085790327100</p>
+        </div>
+        <div id="bio-user">
+            <table>
+                <tr>
+                    <td style="width:36px">No</td>
+                    <td style="width:10px">:</td>
+                    <td colspan="2">#1234567890</td>                    
+                </tr>
+                <tr>
+                    <td>Admin</td>
+                    <td>:</td>
+                    <td colspan="2">Widya</td>                    
+                </tr>
+                <tr>
+                    <td>Tanggal</td>
+                    <td>:</td>
+                    <td style="width:73px;">20-02-2021</td>                    
+                    <td>10:01</td>                    
+                </tr>
+            </table>
+        </div>
+        <div id="no-kamar" class="text-center">
+            <p class="gilroy-bold room-numb">45</p>
+            <p style="margin-top: -30px;font-size: 9px;">nomor kamar</p>
+        </div>
+
+        <div class="detail-pemesanan">
+            <p class="dm-sans">Detail Pemesanan</p>
+            <table>
+                <tr>
+                    <td style="width:36px">Nama</td>
+                    <td style="width:10px">:</td>
+                    <td>M. Wildan Wari</td>                    
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td>wildanwari@gmail.com</td>                    
+                </tr>
+                <tr>
+                    <td>No HP</td>
+                    <td>:</td>
+                    <td>08790327100</td>                    
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td>:</td>
+                    <td>Prigen Pasuruan</td>                    
+                </tr>                
+                <tr>
+                    <td>Agenda</td>
+                    <td>:</td>
+                    <td>Liburan</td>                    
+                </tr>                                
+            </table>
+        </div>       
+        <div class="detail-pemesanan">
+            <p class="dm-sans">Detail Kamar</p>
+            <table>
+                <tr>
+                    <td style="width:56px">Tipe Kamar</td>
+                    <td style="width:10px">:</td>
+                    <td>Deluxe Room</td>                    
+                </tr>
+                <tr>
+                    <td>No Kmr</td>
+                    <td>:</td>
+                    <td>42</td>                    
+                </tr>
+                <tr>
+                    <td>Check In</td>
+                    <td>:</td>
+                    <td>02 May</td>                    
+                </tr>
+                <tr>
+                    <td>Check Out</td>
+                    <td>:</td>
+                    <td>21 May</td>                    
+                </tr>                                 
+            </table>
+        </div>
+        
+        <div class="detail-pemesanan unborder">
+            <p class="dm-sans">Detail Pembayaran</p>
+            <table width="100%">
+                <tr>
+                    <td style="width:67px">Jns Pembyrn</td>
+                    <td style="width:10px">:</td>
+                    <td align="right">Tunai</td>                    
+                </tr>
+                <tr>
+                    <td>Uang Deposito</td>
+                    <td>:</td>
+                    <td align="right">-</td>                    
+                </tr>
+                <tr>
+                    <td>Pelunasan</td>
+                    <td>:</td>
+                    <td class="dm-sans" align="right" style="font-weight:700;">Rp. 2.550.000</td>                    
+                </tr>              
+            </table>
+        </div>
+    </div>    
+</body>
